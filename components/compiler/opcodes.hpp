@@ -539,6 +539,12 @@ namespace Compiler
         const int opcodeUser4 = 0x2000170;
         const int opcodeUser4Explicit = 0x2000171;
     }
+
+    namespace Extender
+    {
+        const int opcodexIsFemale = 0x2000320;
+        const int opcodexIsFemaleExplicit = 0x2000321;
+    }
 }
 
 #endif

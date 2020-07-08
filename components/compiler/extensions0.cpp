@@ -19,6 +19,7 @@ namespace Compiler
         Sound::registerExtensions (extensions);
         Stats::registerExtensions (extensions);
         Transformation::registerExtensions (extensions);
+        Extender::registerExtensions(extensions);
 
         if (consoleOnly)
         {
@@ -577,6 +578,14 @@ namespace Compiler
             extensions.registerInstruction ("user2", "", opcodeUser2);
             extensions.registerInstruction ("user3", "", opcodeUser3, opcodeUser3);
             extensions.registerInstruction ("user4", "", opcodeUser4, opcodeUser4);
+        }
+    }
+
+    namespace Extender
+    {
+        void registerExtensions (Extensions& extensions)
+        {
+            extensions.registerFunction ("xisfemale", 'l', "", opcodexIsFemale, opcodexIsFemaleExplicit);
         }
     }
 }

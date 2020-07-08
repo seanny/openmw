@@ -76,6 +76,11 @@ namespace Compiler
     {
         void registerExtensions (Extensions& extensions);
     }
+
+    namespace Extender
+    {
+        void registerExtensions(Extensions& extensions);
+    }
 }
 
 #endif

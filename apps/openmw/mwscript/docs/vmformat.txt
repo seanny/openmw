@@ -480,4 +480,7 @@ op 0x200031d: StartScript, explicit
 op 0x200031e: GetDistance
 op 0x200031f: GetDistance, explicit
 
+op 0x2000320: xIsFemale
+op 0x2000321: xIsFemale, Explicit
+
 opcodes 0x2000320-0x3ffffff unused

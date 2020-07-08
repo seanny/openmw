@@ -53,6 +53,7 @@ add_openmw_dir (mwscript
     guiextensions soundextensions skyextensions statsextensions containerextensions
     aiextensions controlextensions extensions globalscripts ref dialogueextensions
     animationextensions transformationextensions consoleextensions userextensions
+    extenderextensions
     )
 
 add_openmw_dir (mwsound
